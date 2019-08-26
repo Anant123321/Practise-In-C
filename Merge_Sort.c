@@ -44,8 +44,7 @@ int main()
 {
     int size;
     scanf("%d",&size);
-    int *arr=(int *)malloc(size*sizeof(int));
-    int *aux=(int *)malloc(size*sizeof(int));                        
+    int *arr=(int *)malloc(size*sizeof(int));                     
     int i=0;
     for(i=0;i<size;i++)
     {
