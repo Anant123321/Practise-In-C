@@ -5,7 +5,7 @@ void merge(int * a,int n,int l,int r)
 {
     int mid=(l+r)/2;
     int i=l,j=mid+1,k=l;
-    int temp[10];
+    int temp[n];
     while(i<=mid && j<=r)
     {
         if(a[i]<a[j])
